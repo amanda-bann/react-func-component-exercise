@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import NameTag from "./NameTag.js";
 import "./styles.css";
 
-const renderNameTag = (name) => <NameTag name={name.person} key={name.id} />;
+const renderNameTag = (name) => <NameTag name={name} key={name} />;
 
 class App extends Component{
   state = { names: ["Teklanika", "Denali", "K2", "Everest", "Hunter", "Wickersham"] };
